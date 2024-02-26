@@ -1,6 +1,6 @@
 main(List<String>args){
   List a = [12,67];   // List
-  Map b = {
+  Map b = {         // map ikta qiymat oladi    key and value
     "d": 13,
     "f": 14,
   };
@@ -11,5 +11,8 @@ main(List<String>args){
      'age': 14,
      'name': "maxmud" 
   };
+  searching.addAll(b); // yangi map qushadi
+  searching.clear;  // bo'sh mapga aylantiradi
+  searching.isEmpty;  // boolean  If empty
   print(searching);
 }
