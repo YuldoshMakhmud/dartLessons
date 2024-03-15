@@ -1,15 +1,14 @@
 // void main(List<String> args) {
-  // oddiy holattada
-  // int i = 1;
-  // i += 6;
-  // print(i);
+// oddiy holattada
+// int i = 1;
+// i += 6;
+// print(i);
 
 // for bilan
-  // for (var i = 0; i < 10; i++) {
-  //   print("hello 10ta");
-  // }
+// for (var i = 0; i < 10; i++) {
+//   print("hello 10ta");
 // }
-
+// }
 
 // ====================================================================
 
@@ -37,7 +36,6 @@
 // }
 //=====================================================================
 
-
 //sikllarda  break and continue
 
 // void main(List<String> args) {
@@ -59,7 +57,7 @@
 // }
 
 //   print("sikl tugadi");
-  
+
 // }
 
 // ==============================================
@@ -74,7 +72,7 @@
 //   }
 // }
 
-//dowhile  birinchi siklni bajaradi keyin shartni shart rost bulsa yana bajarib quyadi  
+//dowhile  birinchi siklni bajaradi keyin shartni shart rost bulsa yana bajarib quyadi
 
 // void main(List<String> args) {
 //   int i = 100;
@@ -98,9 +96,33 @@
 //     [2,3,4],
 //   ];
 //   }
-void main (){
-  int number = 13;
-  for(int i = 0; i<=number; i++){
-    print(i);
-  }
+
+
+void main() {
+// masala :  bir kilagram konfetniing narxi berilgan int 1dan 10kggacha konfetni narhini chiqaruvchi dastru tuzing
+// int price = 17500;
+// for(int i =1; i<=10; i++){
+
+//   print("konfetniing ${i} kg narhi ${i*price} won");
+
+// }
+//   List obj = [1, 3, 5, 7, 8];
+// // for (var i in obj) {// for in da obyejting qiymatlariga hech qanday  tasir utkaza ololmaymiz ammo for da buladi
+// //   print(i);
+
+// // }
+//   obj.forEach((e) {
+//     print(e);
+//   });
+
+//Task 1 for loopdan foydalanib 1 dan 20gacha sonlar orasidan toq sonlarni topik
+// print("================");
+// for(int i = 0; i<20;i++){
+//   if( i % 2 ==1){
+//     print("toqson ${i}");
+//   }
+// }
+print("================");
+//Task2  while loopdan foydalanib 1dan 20gacha sonlar orsidan 5ga bulin maydigan sonlarni toping 
 }
+
