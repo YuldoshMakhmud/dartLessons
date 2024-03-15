@@ -98,3 +98,9 @@
 //     [2,3,4],
 //   ];
 //   }
+void main (){
+  int number = 13;
+  for(int i = 0; i<=number; i++){
+    print(i);
+  }
+}
