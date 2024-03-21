@@ -28,6 +28,14 @@ myMap.forEach((k, v) {
  for(int i =0; i<myKeys.length; i++){
   print(myMap[myKeys[i]]);
  }
+// for each
+myMap.forEach((key, value)=> print(key));
 
+
+Map idMap={"id":"120","password":"mypass23"};
+
+if(idMap == "@");
+idMap.update("password", (v) => "mypass23@");
+print(idMap);
 
 }
