@@ -48,6 +48,10 @@ void main(List<String> args){
   Matiz.start();
   Malibu.stop();
   Ionic.parking();
+  Gentra.start();
+  Matiz.start();
+  Malibu.stop();
+  Ionic.parking();
 
 }
 
