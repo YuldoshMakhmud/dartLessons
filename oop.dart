@@ -43,6 +43,7 @@ void main(List<String> args){
   Car Matiz = Car.named("matiz", 10000, false);
   Car Malibu = Car("Malibu", 2000, false, "green");
   Car Ionic = Car("Ionic 5", 4000, true, "black");
+  Car Monza = Car("MOnza",100000,false,"blue");
 
   Gentra.start();
   Matiz.start();
@@ -52,6 +53,7 @@ void main(List<String> args){
   Matiz.start();
   Malibu.stop();
   Ionic.parking();
+  Monza.start();
 
 }
 
