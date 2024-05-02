@@ -19,7 +19,17 @@ void main(List<String> args) {
 // List<String> names = ["max","rex","metr"]; //string list
 
 // var mixed = [10,"john",18.8]; // mixed
+//
+// List<int> ages =[10,30,23]; // integer list
+// List<String> names = ["max","rex","metr"]; //string list
 
+// var mixed = [10,"john",18.8]; // mixed
+//
+
+// var mixed = [10,"john",18.8]; // mixed
+//
+// List<int> ages =[10,30,23]; // integer list
+// List<String> names = ["max","rex","metr"]; //string list
 
 
 }
